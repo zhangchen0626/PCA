@@ -1,0 +1,19 @@
+2022-12-06 10:43:09,634 - Model - INFO - PARAMETER ...
+2022-12-06 10:43:09,634 - Model - INFO - Namespace(batch_size=24, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir=None, model='pointnet2_cls_msg', num_category=40, num_point=1024, optimizer='Adam', process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2022-12-06 10:43:09,634 - Model - INFO - Load dataset ...
+2022-12-06 10:43:10,118 - Model - INFO - No existing model, starting training from scratch...
+2022-12-06 10:43:10,118 - Model - INFO - Start training...
+2022-12-06 10:43:10,118 - Model - INFO - Epoch 1 (1/200):
+2022-12-06 10:48:09,217 - Model - INFO - Train Instance Accuracy: 0.572561
+2022-12-06 10:49:22,745 - Model - INFO - Test Instance Accuracy: 0.575971, Class Accuracy: 0.546168
+2022-12-06 10:49:22,745 - Model - INFO - Best Instance Accuracy: 0.575971, Class Accuracy: 0.546168
+2022-12-06 10:49:22,745 - Model - INFO - Save model...
+2022-12-06 10:49:22,745 - Model - INFO - Saving at log\classification\2022-12-06_10-43\checkpoints/best_model.pth
+2022-12-06 10:49:22,808 - Model - INFO - Epoch 2 (2/200):
+2022-12-06 10:54:14,340 - Model - INFO - Train Instance Accuracy: 0.738008
+2022-12-06 10:55:29,153 - Model - INFO - Test Instance Accuracy: 0.810032, Class Accuracy: 0.720861
+2022-12-06 10:55:29,153 - Model - INFO - Best Instance Accuracy: 0.810032, Class Accuracy: 0.720861
+2022-12-06 10:55:29,153 - Model - INFO - Save model...
+2022-12-06 10:55:29,153 - Model - INFO - Saving at log\classification\2022-12-06_10-43\checkpoints/best_model.pth
+2022-12-06 10:55:29,215 - Model - INFO - Epoch 3 (3/200):
+2022-12-06 11:00:06,435 - Model - INFO - Train Instance Accuracy: 0.776524
