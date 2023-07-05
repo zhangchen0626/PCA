@@ -1,0 +1,23 @@
+2022-11-03 15:49:39,905 - Model - INFO - PARAMETER ...
+2022-11-03 15:49:39,905 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, model='pointnet_cls', num_category=40, epoch=400, learning_rate=0.001, num_point=1024, optimizer='Adam', log_dir=None, decay_rate=0.0001, use_normals=True, process_data=False, use_uniform_sample=False)
+2022-11-03 15:49:39,905 - Model - INFO - Load dataset ...
+2022-11-03 15:49:40,550 - Model - INFO - No existing model, starting training from scratch...
+2022-11-03 15:49:40,551 - Model - INFO - Start training...
+2022-11-03 15:49:40,551 - Model - INFO - Epoch 1 (1/400):
+2022-11-03 15:56:24,583 - Model - INFO - Train Instance Accuracy: 0.395020
+2022-11-03 15:58:28,035 - Model - INFO - Test Instance Accuracy: 0.302696, Class Accuracy: 0.197763
+2022-11-03 15:58:28,035 - Model - INFO - Best Instance Accuracy: 0.302696, Class Accuracy: 0.197763
+2022-11-03 15:58:28,035 - Model - INFO - Save model...
+2022-11-03 15:58:28,035 - Model - INFO - Saving at log\classification\2022-11-03_15-49\checkpoints/best_model.pth
+2022-11-03 15:58:28,168 - Model - INFO - Epoch 2 (2/400):
+2022-11-03 16:05:31,655 - Model - INFO - Train Instance Accuracy: 0.548272
+2022-11-03 16:07:42,952 - Model - INFO - Test Instance Accuracy: 0.454248, Class Accuracy: 0.324833
+2022-11-03 16:07:42,952 - Model - INFO - Best Instance Accuracy: 0.454248, Class Accuracy: 0.324833
+2022-11-03 16:07:42,952 - Model - INFO - Save model...
+2022-11-03 16:07:42,952 - Model - INFO - Saving at log\classification\2022-11-03_15-49\checkpoints/best_model.pth
+2022-11-03 16:07:43,074 - Model - INFO - Epoch 3 (3/400):
+2022-11-03 16:14:55,213 - Model - INFO - Train Instance Accuracy: 0.620020
+2022-11-03 16:17:07,334 - Model - INFO - Test Instance Accuracy: 0.424020, Class Accuracy: 0.368388
+2022-11-03 16:17:07,334 - Model - INFO - Best Instance Accuracy: 0.454248, Class Accuracy: 0.368388
+2022-11-03 16:17:07,334 - Model - INFO - Epoch 4 (4/400):
+2022-11-03 16:24:11,043 - Model - INFO - Train Instance Accuracy: 0.667988
